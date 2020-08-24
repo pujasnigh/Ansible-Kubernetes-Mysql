@@ -8,9 +8,9 @@ Once VM is ready, login into it with root & given password during setup and upda
 After update complete, make and entry of each hosts in /etc/hosts file for name resolution.
 "vi /etc/hosts"
 
-Clone this repository : https://github.com/shailendra-singh93/Ansible-Kubernetes-Mysql.git
+Clone this repository : https://github.com/pujasnigh/Ansible-Kubernetes-Mysql
 
-$ git clone https://github.com/shailendra-singh93/Ansible-Kubernetes-Mysql.git
+$ git clone https://github.com/pujasnigh/Ansible-Kubernetes-Mysql.git
 
 Update Ansible hosts file and make entries for all the Master node in Master group & worker node in Worker group. $cd Ansible-Kubernetes $ vi hosts
 
