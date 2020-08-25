@@ -4,7 +4,7 @@ Edit host file and add the entry for both the nodes.
 ssh-keygen , ssh-copy-id [ all 4 user]
 disable selinux [ vi /etc/selinux/config  , selinux=disabled ]
 install git & ansible in master VM [yum install git ansible -y]
-git clone https://github.com/shailendra-singh93/Ansible-Kubernetes-Mysql.git
+git clone https://github.com/pujasnigh/Ansible-Kubernetes-Mysql.git
 now go to the Ansible-project and add master node and worker node IP details in hosts file
 and execute below command:	
 		$ ansible-playbook -i hosts kube-dependencies.yml
